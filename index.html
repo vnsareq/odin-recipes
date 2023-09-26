@@ -3,13 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Recipes</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <h1>Odin Recipes</h1>
-    <ul>
-        <li><a href="recipes/macandcheese.html">Italian Mac and Cheese</a></li>
-        <li><a href="recipes/steakmarinade.html">Best Steak Marinade in Existence</a></li>
-        <li><a href="recipes/baconwrap.html">Bacon-Wrapped Jalapeno Poppers</a></li>
-    </ul>
+<body class="body">
+    <div class="menu">
+        <h1 class="title">Favorite Recipes</h1>
+        <div class="column">
+            <img class="resize" src="https://www.allrecipes.com/thmb/YmwdBzsLQFr0oRj9sOi5ior0V_Q=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Italian-Mac-and-Cheese-4x-fbc48d31a21c44e0b3498c889265934a.jpg">
+            <a href="recipes/macandcheese.html">Italian Mac and Cheese</a>
+        </div>
+        <div class="column">
+            <img class="resize" src="https://www.allrecipes.com/thmb/tb61Fhkmb7CZ_AbSe7hQ8ggtknQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/143809-best-steak-marinade-in-existence-ARMag-3x2-1-8d7d61255c1e43aba092552e45c9d88d.jpg" alt-="steak marinade">
+            <a href="recipes/steakmarinade.html">Best Steak Marinade</a>
+        </div>
+        <div class="column">
+            <img class="resize" src="https://www.allrecipes.com/thmb/c-aWAQA51GLfBQT8mVvVOqAMttA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/233603-Bacon-Wrapped-Jalapeno-Poppers-hungryallweighs-4x3jpg-9e0b436b8ba44abda8b77dd4385e2235.jpg" alt="Bacon-Wrapped Jalapeno">
+            <a href="recipes/baconwrap.html">Bacon-Wrapped Jalapeno Poppers</a>
+        </div>
+    </div>
 </html>

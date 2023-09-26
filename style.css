@@ -1,0 +1,56 @@
+.body {
+    background-color: azure;
+}
+
+.menu {
+    width: 500px;
+    margin: 16px auto;
+    padding: 8px;
+  }
+
+.title {
+    text-align: center;
+}
+
+.resize {
+    width: 500px;
+    height: auto;
+}
+
+.column {
+    font-size: 24px;
+    text-align: center;
+}
+
+.about {
+    padding: 8px;
+    margin: 6px;
+}
+
+.descr {
+    font-size: 18px;
+}
+
+.content {
+    display: flex;
+    font-size: 20px;
+}
+
+.ingredients {
+    background-color:cornsilk;
+    padding: 8px;
+    width: 400px;
+    margin: 6px;
+}
+
+.steps {
+    background-color:cornsilk;
+    padding: 8px;
+    width: 1000px;
+    margin: 6px;
+}
+
+.resize2 {
+    width: 800px;
+    height: 600px;
+}
